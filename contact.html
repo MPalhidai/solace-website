@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | SOLACE</title>
+  <meta name="description" content="Contact SOLACE about transitional housing, donating, volunteering, or partnering, and read answers to common questions.">
+  <meta name="theme-color" content="#1f4d4a">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="SOLACE home">
+        <img src="images/logo-leaf.svg" alt="" width="30" height="38">
+        <span><span class="brand-name">SOLACE</span><span class="brand-tag">Transitional housing for veterans &amp; people in need</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bars" aria-hidden="true"></span><span>Menu</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Our Model</a></li>
+          <li class="nav-cta"><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="apply.html">Apply for Housing</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1 id="page-title">We&rsquo;d love to hear from you</h1>
+        <p class="lead">Whether you need housing, want to help, or represent an organization that serves people in transition, reach out.</p>
+      </div>
+      <img class="leaf-deco" src="images/leaf-3.png" alt="" width="240" height="300">
+    </section>
+
+    <section class="section" aria-labelledby="reach-title">
+      <div class="container split">
+        <div>
+          <h2 id="reach-title">Get in touch</h2>
+          <ul class="checklist">
+            <!-- TODO: replace with the real contact email address -->
+            <li><strong>Email:</strong> <a href="mailto:contact@example.org">contact@example.org</a></li>
+            <!-- TODO: add a phone number if you want one listed -->
+            <!-- TODO: replace with a real mailing address (never list confidential home locations) -->
+            <li><strong>Mailing address:</strong> [Mailing address to come], Dallas, Texas</li>
+          </ul>
+          <p>Looking for housing? Please use our <a href="apply.html#apply-form">housing interest form</a>.</p>
+          <p>Want to give, volunteer, or partner? See <a href="get-involved.html">Get Involved</a>.</p>
+          <div class="notice notice-safety" role="note"><p><strong>If you are in immediate danger, call 911.</strong> This inbox is not monitored around the clock.</p></div>
+        </div>
+        <div class="card">
+          <h3>Send us a message</h3>
+            <!-- TODO: replace action="#" with a real form endpoint (e.g. Formspree, Netlify Forms, or your CRM). Until then, main.js shows a "not connected" message. -->
+            <form id="contact-form" action="#" method="post" data-placeholder-form>
+              <div class="field"><label for="contact-form-name">Your name</label><input id="contact-form-name" name="name" type="text" autocomplete="name" required></div>
+              <div class="field"><label for="contact-form-email">Email</label><input id="contact-form-email" name="email" type="email" autocomplete="email" required></div>
+              <fieldset><legend>I&rsquo;m interested in</legend><div class="radio-row"><label><input type="radio" name="interest" value="housing"> Housing</label><label><input type="radio" name="interest" value="giving"> Giving</label><label><input type="radio" name="interest" value="volunteering"> Volunteering</label><label><input type="radio" name="interest" value="partnering"> Partnering</label><label><input type="radio" name="interest" value="other"> Something else</label></div></fieldset>
+              <div class="field"><label for="contact-form-msg">Your message</label><textarea id="contact-form-msg" name="message"></textarea></div>
+              <button class="btn btn-primary" type="submit">Send</button>
+              <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+            </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Questions &amp; answers</span>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="grid grid-2">
+          <div class="card"><h3>Is SOLACE a shelter?</h3><p>No. SOLACE homes are ordinary six-bed houses in neighborhoods, with house rules the residents help set, case management, and a path toward permanent housing.</p></div>
+          <div class="card"><h3>When will the first home open?</h3><p>We are raising funds for our first home in Dallas now, with residents welcomed home targeted for spring 2027.</p></div>
+          <div class="card"><h3>Who will the first home serve?</h3><p>One population, matched to whichever housing program opens first &mdash; for example, homeless veterans. Every SOLACE home is single-population by design.</p></div>
+          <div class="card"><h3>Are donations tax-deductible?</h3><p>Not yet. We plan to establish the SOLACE Community Foundation as a 501(c)(3) charitable arm, with its application planned for 2027. Until it is approved, gifts are acts of generosity and are not tax-deductible.</p></div>
+          <div class="card"><h3>Where are SOLACE homes located?</h3><p>Our first home will be in Dallas. Homes for survivors of domestic violence are kept at confidential locations for residents&rsquo; safety.</p></div>
+          <div class="card"><h3>Does SOLACE require residents to be religious?</h3><p>No. We serve residents regardless of faith. Any religious programming in a SOLACE home is resident-initiated and voluntary.</p></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">SOLACE</p>
+          <p>Supportive Opportunities for Living, Assistance, Community &amp; Empowerment.</p>
+          <p>Turning empty houses into homes for veterans and people in need of transitional housing, starting in Dallas, Texas.</p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="about.html">About SOLACE</a></li>
+            <li><a href="programs.html">Our housing model</a></li>
+            <li><a href="apply.html">Apply for housing</a></li>
+            <li><a href="contact.html#faq">Questions &amp; answers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Get involved</h2>
+          <ul>
+            <li><a href="get-involved.html#donate">Donate</a></li>
+            <li><a href="get-involved.html#give-items">Give furniture &amp; goods</a></li>
+            <li><a href="get-involved.html#volunteer">Volunteer</a></li>
+            <li><a href="get-involved.html#partner">Partner with us</a></li>
+            <!-- TODO: replace with the real contact email address -->
+            <li><a href="mailto:contact@example.org">contact@example.org</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>SOLACE serves residents regardless of faith, in keeping with the Fair Housing Act. A 501(c)(3) charitable arm, the SOLACE Community Foundation, is planned (application in 2027); until it is approved, gifts are not tax-deductible. <a href="contact.html#faq">Learn more</a>.</p>
+        <p>&copy; <span id="year">2026</span> SOLACE. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

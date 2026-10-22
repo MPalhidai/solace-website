@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-labelledby="ht hd">
+  <title id="ht">A welcoming home with an open front door</title>
+  <desc id="hd">Illustration of a brick house on a quiet street, its front door open with warm light spilling out, framed by green leaves.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e3efe8"/><stop offset="1" stop-color="#f6efe2"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffd9a0" stop-opacity=".9"/><stop offset="1" stop-color="#ffd9a0" stop-opacity="0"/></radialGradient>
+    <pattern id="brick" width="24" height="12" patternUnits="userSpaceOnUse"><rect width="24" height="12" fill="#b5653f"/><path d="M0 11.5h24M12 0v6M0 6h24M0 6v6M24 6v6" stroke="#9b5233" stroke-width="1"/></pattern>
+  </defs>
+  <rect x="10" y="10" width="420" height="380" rx="28" fill="url(#sky)"/>
+  <circle cx="345" cy="78" r="30" fill="#f4c98a" opacity=".8"/>
+  <rect x="10" y="318" width="420" height="72" rx="0" fill="#a9c9b5"/>
+  <path d="M10 318h420v44a28 28 0 0 1-28 28H38a28 28 0 0 1-28-28z" fill="#a9c9b5"/>
+  <path d="M200 318 l-24 72 h88 l-24 -72z" fill="#e8dcc5"/>
+  <polygon points="90,170 220,80 350,170" fill="#1f4d4a"/>
+  <rect x="110" y="168" width="220" height="152" fill="url(#brick)"/>
+  <rect x="140" y="196" width="46" height="42" rx="3" fill="#fbe7c0" stroke="#f1e9da" stroke-width="5"/>
+  <path d="M163 196v42M140 217h46" stroke="#f1e9da" stroke-width="4"/>
+  <rect x="254" y="196" width="46" height="42" rx="3" fill="#fbe7c0" stroke="#f1e9da" stroke-width="5"/>
+  <path d="M277 196v42M254 217h46" stroke="#f1e9da" stroke-width="4"/>
+  <circle cx="220" cy="285" r="70" fill="url(#glow)"/>
+  <rect x="198" y="250" width="44" height="70" fill="#ffe2ae"/>
+  <path d="M198 250 l-16 6 v70 l16 -6z" fill="#7f3d20"/>
+  <rect x="190" y="242" width="60" height="8" fill="#f1e9da"/>
+  <rect x="186" y="318" width="68" height="7" rx="2" fill="#d8ccb6"/>
+  <g opacity=".95">
+    <path d="M60 330c-8-30 4-62 26-74 6 26-4 58-26 74z" fill="#6a9f8b"/>
+    <path d="M60 330c6-22 14-44 26-74" stroke="#2a625e" stroke-width="2" fill="none"/>
+    <path d="M378 332c10-28 0-60-20-74-8 24 0 58 20 74z" fill="#2a625e"/>
+    <path d="M378 332c-4-22-10-46-20-74" stroke="#a9c9b5" stroke-width="2" fill="none"/>
+    <path d="M395 330c-2-20 10-38 24-42 0 18-10 36-24 42z" fill="#a9c9b5"/>
+  </g>
+</svg>
