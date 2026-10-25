@@ -7,7 +7,8 @@ Plain HTML, CSS, and a little vanilla JavaScript. There's no build step, no fram
 ## Structure
 
 ```
-website/
+solace-website/
+├── CNAME               Custom domain for GitHub Pages (solacehomes.app)
 ├── index.html          Home: mission hero, the problem, who we serve, how it works, impact goals, get involved
 ├── about.html          Mission, the matching problem, principles, why Dallas–Fort Worth, roadmap, founder, status note
 ├── programs.html       "Our Model": Match/House/Belong, veterans homes, one-home-one-population table,
@@ -31,7 +32,7 @@ website/
 
 ## Deploy
 
-Upload the folder as-is to any static host (Netlify, GitHub Pages, Cloudflare Pages, S3, and so on). `index.html` is the entry point.
+The site is published with GitHub Pages from the `main` branch at https://solacehomes.app. The `CNAME` file holds that custom domain, so keep it in place. `index.html` is the entry point, and the folder also works as-is on any other static host.
 
 ## Placeholders to fill in
 
